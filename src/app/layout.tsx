@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ChartMept — Data Visualisation & Analytics",
+  title: "ChartMept — Analytics, visualised.",
   description:
-    "Turn raw data into beautiful, interactive charts. Real-time analytics for teams that move fast.",
+    "Turn raw data into living dashboards. Connect any source, drag in a chart, and ship interactive analytics in minutes.",
+  other: {
+    "theme-color": "#070b14",
+  },
 };
 
 export default function RootLayout({
